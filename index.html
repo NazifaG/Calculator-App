@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="blur-overlay"></div>
+    <h1>Calculator</h1>
+    <div class="screen">
+        <input type="text" name="" id="result" placeholder="0" style="width: 370px; height: 70px; background-color: #4c5554;">
+    </div>
+    <div class="numbers" name="clc">
+        <div>
+      <button class="nums" value="0" onclick="clc.display.value += '0'">0</button>
+      <button class="nums" value="1" onclick="clc.display.value += '1'">1</button>
+      <button class="nums" value="2" onclick="clc.display.value += '2'">2</button>
+      <button class="ops" value="+" onclick="clc.display.value += '+'" style="background-color: #cc5c1c;">+</button>
+    </div>
+    <div>
+      <button class="nums" value="3">3</button>
+      <button class="nums" value="4">4</button>
+      <button class="nums" value="5">5</button>
+      <button class="ops" value="-" style="background-color: #ba55d3;">-</button>
+    </div>
+    <div>
+      <button class="nums" value="6">6</button>
+      <button class="nums" value="7">7</button>
+      <button class="nums" value="8">8</button>
+      <button class="ops" value="*" style="background-color: #7db1b2;">*</button>
+    </div>
+    <div>
+      <button class="nums" value="9">9</button>
+      <button class="delete" style="background-color: #cc0000;">C</button>
+      <button class="equal" value="=">=</button>
+      <button class="ops" value="/" style="background-color: rgb(97, 97, 212);">/</button>
+      
+       <p class="sum"></p>
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
